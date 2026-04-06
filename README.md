@@ -21,7 +21,9 @@ SIEM alerts identified suspicious traffic originating from an internal host comm
 - External IP: 45.131.214.85
 - Port: TCP 443
 - Activity: Repeated beaconing behavior
-<img src="c2-traffic.png" width="1200"/>
+<p align="center">
+  <img src="c2-traffic.png" width="1200"/>
+</p>
 ---
 
 ## Investigation Process
