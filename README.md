@@ -21,7 +21,7 @@ SIEM alerts identified suspicious traffic originating from an internal host comm
 - External IP: 45.131.214.85
 - Port: TCP 443
 - Activity: Repeated beaconing behavior
-
+![C2 Traffic](c2-traffic.png)
 ---
 
 ## Investigation Process
@@ -40,12 +40,12 @@ Using Wireshark, I performed the following steps:
 - IP Address: 10.2.28.88
 - MAC Address: 00:19:d1:b2:4d:ad
 - Hostname: DESKTOP-TEYQ2NR
-
+![MAC Address](mac-address.png)
 ### Observations
 - The infected host maintained continuous communication with the external IP
 - Traffic patterns were consistent with command-and-control behavior
 - NetSupport Manager RAT indicators were observed in HTTP traffic
-
+![Hostname](hostname-nbns.png)
 ---
 
 ## Conclusion
